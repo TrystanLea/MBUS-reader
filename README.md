@@ -1,5 +1,5 @@
-# MBUS-reader
-to go with emonTX
+# M-Bus reader
+to go with [emonTX](https://github.com/openenergymonitor/emontx3)
 
 Part of [OpenEnergyMonitor.org](https://openenergymonitor.org) project
 
