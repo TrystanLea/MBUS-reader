@@ -11,3 +11,4 @@ Circuit diagram used is from [here](https://github.com/rscada/libmbus/tree/maste
 ![mbus_levelshifter](https://user-images.githubusercontent.com/29893671/29127304-9c790700-7d18-11e7-85f9-27eb9a11ae67.png)
 
 The 34V is provided to the circuit through a [DC to DC voltage step up boost converter](http://www.ebay.co.uk/itm/XL6009-DC-DC-Voltage-Step-Up-Boost-Converter-replace-LM2577-3-32v-input-UK-Fast-/400858208676). 
+![mbus surface mount schematic](https://user-images.githubusercontent.com/29893671/29362175-c53c01aa-8282-11e7-914c-8768e34d8be0.png)
