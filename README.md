@@ -15,4 +15,4 @@ The 34V is provided to the circuit through a [DC to DC voltage step up boost con
 ## Schematic
 ![mbus surface mount schematic](https://user-images.githubusercontent.com/29893671/29362175-c53c01aa-8282-11e7-914c-8768e34d8be0.png)
 ## Board 
-![mbus surface mount](https://user-images.githubusercontent.com/29893671/29362211-e57002aa-8282-11e7-80a2-6f80f21e0186.png)
+![mbus surface mount](https://user-images.githubusercontent.com/29893671/29365563-5f5bdad8-828f-11e7-861f-80a32cd2a87e.png)
