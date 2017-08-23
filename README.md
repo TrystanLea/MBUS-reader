@@ -13,6 +13,6 @@ Circuit diagram used is from [here](https://github.com/rscada/libmbus/tree/maste
 The 34V is provided to the circuit through a [DC to DC voltage step up boost converter](http://www.ebay.co.uk/itm/XL6009-DC-DC-Voltage-Step-Up-Boost-Converter-replace-LM2577-3-32v-input-UK-Fast-/400858208676). 
 
 ## Schematic
-![mbus surface mount schematic](https://github.com/shirosatku/MBUS-reader/blob/master/hardware/MBUS%20reader%20surface%20mount%20schematic.png)
+![mbus surface mount schematic](https://github.com/shirosatku/MBUS-reader/blob/master/hardware/MBUS%20reader%20through%20hole%20schematic.png)
 ## Board 
-![mbus surface mount board](https://github.com/shirosatku/MBUS-reader/blob/master/hardware/MBUS%20reader%20surface%20mount%20board.png)
+![mbus surface mount board](https://github.com/shirosatku/MBUS-reader/blob/master/hardware/MBUS%20reader%20through%20hole%20board.png)
