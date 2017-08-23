@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.96850394" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.635" altunitdist="mm" altunit="mm"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.635" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -159,7 +159,7 @@
 <wire x1="75.6928" y1="79.7096" x2="75.7928" y2="20.958" width="0" layer="20"/>
 <wire x1="75.7928" y1="20.958" x2="96.3948" y2="20.958" width="0" layer="20"/>
 <text x="77.064" y="42.9556" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">www.openenergymonitor.org</text>
-<text x="81.8692" y="79.4948" size="0.8128" layer="21" font="vector" ratio="20" rot="R270">Designed in North Wales
+<text x="88.2192" y="60.6988" size="0.8128" layer="21" font="vector" ratio="20" rot="MR270">Designed in North Wales
 by Trystan Lea, 
 Glyn Hudson, John Cantor 
 and Shiromini Satkunarajah
@@ -3261,27 +3261,27 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="97.675" y="29.23" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="LOGO1" library="ohw-logo" package="OSHW_6X200_NOTEXT" value="OSHW_LOGO_6MILX0200-NT" x="95.1238" y="35.0372" rot="R90"/>
-<element name="MBUS" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" package="180-2" value="" x="91.5876" y="75.5524" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="91.5876" y="75.5524" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="91.5876" y="75.5524" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="90.8876" y="71.7024" size="0.8128" layer="25" rot="R180"/>
-<attribute name="OC_FARNELL" value="unknown" x="91.5876" y="75.5524" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="91.5876" y="75.5524" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="93.3376" y="73.8024" size="1.27" layer="27" rot="R180"/>
+<element name="MBUS" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" package="180-2" value="" x="86.2876" y="75.5524" smashed="yes" rot="R180">
+<attribute name="MF" value="" x="86.2876" y="75.5524" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="86.2876" y="75.5524" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="85.5876" y="71.7024" size="0.8128" layer="25" rot="R180"/>
+<attribute name="OC_FARNELL" value="unknown" x="86.2876" y="75.5524" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="86.2876" y="75.5524" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="88.0376" y="73.8024" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="MBUS1" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" package="180-2" value="" x="83.6" y="25.05" smashed="yes">
-<attribute name="MF" value="" x="83.6" y="25.05" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="83.6" y="25.05" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="83.6" y="25.05" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="83.6" y="25.05" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="81.85" y="26.8" size="1.27" layer="27"/>
+<element name="MBUS1" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" package="180-2" value="" x="82.584" y="25.05" smashed="yes">
+<attribute name="MF" value="" x="82.584" y="25.05" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="82.584" y="25.05" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="82.584" y="25.05" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="82.584" y="25.05" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.834" y="26.8" size="1.27" layer="27"/>
 </element>
-<element name="MBUS2" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" package="180-2" value="" x="90.75" y="25.05" smashed="yes">
-<attribute name="MF" value="" x="90.75" y="25.05" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="90.75" y="25.05" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="90.75" y="25.05" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="90.75" y="25.05" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="89" y="26.8" size="1.27" layer="27"/>
+<element name="MBUS2" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" package="180-2" value="" x="89.734" y="25.05" smashed="yes">
+<attribute name="MF" value="" x="89.734" y="25.05" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="89.734" y="25.05" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="89.734" y="25.05" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="89.734" y="25.05" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="87.984" y="26.8" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -3324,16 +3324,18 @@ design rules under a new name.</description>
 <contactref element="MBUS1" pad="1"/>
 <wire x1="80.195" y1="52.535" x2="77.6" y2="50.7" width="0.4064" layer="1"/>
 <wire x1="77.6" y1="50.7" x2="77.6" y2="40.9" width="0.4064" layer="1"/>
-<wire x1="77.6" y1="40.9" x2="81.85" y2="37.3" width="0.4064" layer="1"/>
-<wire x1="81.85" y1="37.3" x2="81.85" y2="25.05" width="0.4064" layer="1"/>
+<wire x1="80.58" y1="37.3" x2="77.6" y2="40.9" width="0.4064" layer="1"/>
+<wire x1="80.834" y1="25.05" x2="80.834" y2="37.046" width="0.4064" layer="1"/>
+<wire x1="80.834" y1="37.046" x2="80.58" y2="37.3" width="0.4064" layer="1"/>
 </signal>
 <signal name="5V" class="1">
 <contactref element="JP7" pad="1"/>
 <contactref element="JP7" pad="2"/>
 <wire x1="94.5" y1="33.04" x2="94.5" y2="30.5" width="0.4064" layer="1"/>
 <contactref element="MBUS2" pad="2"/>
-<wire x1="94.5" y1="30.5" x2="94.5" y2="26.25" width="0.4064" layer="1"/>
-<wire x1="94.5" y1="26.25" x2="92.5" y2="25.05" width="0.4064" layer="1"/>
+<wire x1="94.5" y1="26.399825" x2="94.5" y2="30.5" width="0.4064" layer="1"/>
+<wire x1="94.5" y1="26.399825" x2="94.5" y2="26.25" width="0" layer="19" extent="1-16"/>
+<wire x1="91.484" y1="25.05" x2="94.5" y2="26.399825" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="T1" pad="3"/>
@@ -3392,16 +3394,17 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="2"/>
 <contactref element="JP5" pad="2"/>
-<wire x1="94.5" y1="70.54" x2="94.5" y2="68" width="0.4064" layer="1"/>
+<wire x1="94.5" y1="68" x2="94.5" y2="70.54" width="0.4064" layer="1"/>
 <contactref element="MBUS" pad="1"/>
 <wire x1="80.19" y1="55" x2="80.19" y2="57.61" width="0.4064" layer="1"/>
 <wire x1="80.19" y1="57.61" x2="80.195" y2="57.615" width="0.4064" layer="1"/>
 <wire x1="80.195" y1="57.615" x2="80.195" y2="60.155" width="0.4064" layer="1"/>
 <wire x1="80.195" y1="60.155" x2="83.9318" y2="60.205" width="0.4064" layer="1"/>
 <wire x1="91.7268" y1="68" x2="83.9318" y2="60.205" width="0.4064" layer="1"/>
-<wire x1="94.5" y1="70.54" x2="94.5" y2="74.35" width="0.4064" layer="1"/>
-<wire x1="94.5" y1="74.35" x2="93.3376" y2="75.5524" width="0.4064" layer="1"/>
 <wire x1="94.5" y1="68" x2="91.7268" y2="68" width="0.4064" layer="1"/>
+<wire x1="88.0236" y1="73.2664" x2="88.0376" y2="75.5524" width="0.4064" layer="1"/>
+<wire x1="94.5" y1="70.54" x2="91.004" y2="70.54" width="0.4064" layer="1"/>
+<wire x1="91.004" y1="70.54" x2="88.0236" y2="73.2664" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$30">
 </signal>
@@ -3409,18 +3412,19 @@ design rules under a new name.</description>
 <contactref element="MBUS" pad="2"/>
 <contactref element="T1" pad="1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="91.9366" y1="64.9018" x2="91.9252" y2="64.5904" width="0.4064" layer="16"/>
-<wire x1="91.9252" y1="64.5904" x2="91.9252" y2="73.5148" width="0.4064" layer="16"/>
-<wire x1="91.9252" y1="73.5148" x2="89.8376" y2="75.5524" width="0.4064" layer="16"/>
 <wire x1="87.815" y1="60.8802" x2="87.815" y2="60.155" width="0.4064" layer="1"/>
-<wire x1="91.9252" y1="64.5904" x2="91.5252" y2="64.5904" width="0.4064" layer="1"/>
+<wire x1="91.5252" y1="64.5904" x2="91.9252" y2="64.5904" width="0.4064" layer="1"/>
 <wire x1="91.5252" y1="64.5904" x2="87.815" y2="60.8802" width="0.4064" layer="1"/>
+<wire x1="84.5376" y1="75.5524" x2="84.5376" y2="73.7044" width="0.4064" layer="16"/>
+<wire x1="84.5376" y1="73.7044" x2="91.948" y2="66.294" width="0.4064" layer="16"/>
+<wire x1="91.948" y1="66.294" x2="91.948" y2="64.6132" width="0.4064" layer="16"/>
+<wire x1="91.948" y1="64.6132" x2="91.9252" y2="64.5904" width="0.4064" layer="16"/>
 </signal>
 <signal name="A6">
 <contactref element="R5" pad="2"/>
 <contactref element="MBUS1" pad="2"/>
-<wire x1="80.035" y1="41.945" x2="85.3" y2="37.6" width="0.4064" layer="1"/>
-<wire x1="85.3" y1="37.6" x2="85.35" y2="25.05" width="0.4064" layer="1"/>
+<wire x1="84.334" y1="37.050696875" x2="84.334" y2="25.05" width="0.4064" layer="1"/>
+<wire x1="80.035" y1="41.945" x2="84.334" y2="37.050696875" width="0.4064" layer="1"/>
 </signal>
 </signals>
 <errors>
