@@ -15,4 +15,4 @@ The 34V is provided to the circuit through a [DC to DC voltage step up boost con
 ## Schematic
 ![mbus surface mount schematic](https://github.com/shirosatku/MBUS-reader/blob/master/hardware/MBUS%20reader%20through%20hole%20schematic.png)
 ## Board 
-![mbus surface mount board](https://github.com/shirosatku/MBUS-reader/blob/master/hardware/MBUS%20reader%20through%20hole%20board.png)
+![mbus surface mount board]
