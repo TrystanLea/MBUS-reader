@@ -3315,105 +3315,6 @@ Grid 3.5 mm&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
-<packages>
-</packages>
-<symbols>
-<symbol name="+5V">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="+5V" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="RJ45-8">
-<wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="-7.62" y2="10" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="7.62" y2="-3" width="0.2032" layer="21"/>
-<wire x1="7.62" y1="10" x2="7.62" y2="-3" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" width="0.2032" layer="51"/>
-<wire x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" width="0.2032" layer="51"/>
-<wire x1="7.62" y1="-10.8" x2="7.62" y2="-3" width="0.2032" layer="51"/>
-<pad name="8" x="4.445" y="8.89" drill="1" diameter="1.8796"/>
-<pad name="7" x="3.175" y="6.35" drill="1" diameter="1.8796"/>
-<pad name="6" x="1.905" y="8.89" drill="1" diameter="1.8796"/>
-<pad name="4" x="-0.635" y="8.89" drill="1" diameter="1.8796"/>
-<pad name="2" x="-3.175" y="8.89" drill="1" diameter="1.8796"/>
-<pad name="5" x="0.635" y="6.35" drill="1" diameter="1.8796"/>
-<pad name="3" x="-1.905" y="6.35" drill="1" diameter="1.8796"/>
-<pad name="1" x="-4.445" y="6.35" drill="1" diameter="1.8796" shape="square"/>
-<hole x="-5.715" y="0" drill="3.2"/>
-<hole x="5.715" y="0" drill="3.2"/>
-</package>
-</packages>
-<symbols>
-<symbol name="RJ45-8">
-<wire x1="-7.62" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="13.208" size="1.778" layer="95">&gt;Name</text>
-<text x="-7.62" y="-12.7" size="1.778" layer="95">&gt;Value</text>
-<pin name="1" x="-12.7" y="10.16" visible="pin" length="middle"/>
-<pin name="2" x="-12.7" y="7.62" visible="pin" length="middle"/>
-<pin name="3" x="-12.7" y="5.08" visible="pin" length="middle"/>
-<pin name="4" x="-12.7" y="2.54" visible="pin" length="middle"/>
-<pin name="8" x="-12.7" y="-7.62" visible="pin" length="middle"/>
-<pin name="7" x="-12.7" y="-5.08" visible="pin" length="middle"/>
-<pin name="6" x="-12.7" y="-2.54" visible="pin" length="middle"/>
-<pin name="5" x="-12.7" y="0" visible="pin" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RJ45-8">
-<description>&lt;b&gt;RJ45 Jack&lt;/b&gt;
-Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ethernet cables. Footprint not yet proven in production. Connector sku is PRT-00643; Breakout PCB sku is BOB-00716.</description>
-<gates>
-<gate name="G$1" symbol="RJ45-8" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="RJ45-8">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3454,16 +3355,12 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="MBUS" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" deviceset="180-2" device=""/>
-<part name="U$13" library="SparkFun-Connectors" deviceset="RJ45-8" device="PTH"/>
-<part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="P+9" library="supply1" deviceset="+5V" device=""/>
+<part name="MBUS1" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" deviceset="180-2" device=""/>
+<part name="MBUS2" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" deviceset="180-2" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="3.81" y="100.965" size="3.81" layer="91">ATMEGA 328</text>
-<text x="176.53" y="7.239" size="3.81" layer="91">One-Wire
-RJ45</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="154.94" y="53.34" smashed="yes">
@@ -3498,9 +3395,12 @@ RJ45</text>
 <instance part="SUPPLY15" gate="GND" x="215.9" y="55.88"/>
 <instance part="SUPPLY16" gate="GND" x="215.9" y="34.29"/>
 <instance part="MBUS" gate="G$1" x="233.68" y="78.74"/>
-<instance part="U$13" gate="G$1" x="184.15" y="-8.636"/>
-<instance part="SUPPLY1" gate="GND" x="166.37" y="-26.67" rot="MR0"/>
-<instance part="P+9" gate="1" x="160.782" y="-11.176"/>
+<instance part="MBUS1" gate="G$1" x="119.38" y="71.12" smashed="yes" rot="R180">
+<attribute name="VALUE" x="119.38" y="76.962" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="MBUS2" gate="G$1" x="119.38" y="78.74" smashed="yes" rot="R180">
+<attribute name="VALUE" x="119.38" y="84.582" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3548,10 +3448,9 @@ RJ45</text>
 <junction x="215.9" y="40.64"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="5"/>
-<wire x1="171.45" y1="-8.636" x2="166.37" y2="-8.636" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<wire x1="166.37" y1="-8.636" x2="166.37" y2="-24.13" width="0.1524" layer="91"/>
+<pinref part="MBUS2" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
+<label x="132.08" y="78.74" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -3561,9 +3460,9 @@ RJ45</text>
 <label x="127" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="4"/>
-<wire x1="151.13" y1="-6.096" x2="171.45" y2="-6.096" width="0.1524" layer="91"/>
-<label x="148.59" y="-6.096" size="1.778" layer="95"/>
+<pinref part="MBUS1" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
+<label x="129.54" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="1">
@@ -3576,9 +3475,9 @@ RJ45</text>
 <junction x="229.87" y="43.18"/>
 </segment>
 <segment>
-<pinref part="P+9" gate="1" pin="+5V"/>
-<pinref part="U$13" gate="G$1" pin="7"/>
-<wire x1="160.782" y1="-13.716" x2="171.45" y2="-13.716" width="0.1524" layer="91"/>
+<pinref part="MBUS2" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
+<label x="132.08" y="81.28" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -3678,14 +3577,14 @@ RJ45</text>
 </net>
 <net name="A6" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="8"/>
-<wire x1="171.45" y1="-16.256" x2="148.59" y2="-16.256" width="0.1524" layer="91"/>
-<label x="148.59" y="-16.256" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
 <label x="127" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MBUS1" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="73.66" x2="127" y2="73.66" width="0.1524" layer="91"/>
+<label x="132.08" y="73.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
@@ -3694,10 +3593,6 @@ RJ45</text>
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, Eagle supports online libraries. The ids
 of those online libraries will not be understood (or retained)
